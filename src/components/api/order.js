@@ -20,7 +20,7 @@ const Order = () => {
     };
     
     const handleSubmit = (e) => {
-        e.preventDefault();
+        
         const userData = {
             productid: data.productid,
         productdetails: data.productdetails,
